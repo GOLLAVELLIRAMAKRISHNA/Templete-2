@@ -179,3 +179,32 @@
 .row-5 {
     background-color: rgb(25, 121, 3);
 }
+
+@media screen and (max-width:1024px) {
+    .main {
+        flex-wrap: wrap;
+    }
+
+    .desktop-box {
+        flex-basis: 100%;
+    }
+
+    .tablet-box {
+        flex-basis: 65%;
+    }
+
+    .mobile-box {
+        flex-basis: 25%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .mobile-box {
+        flex-basis: 100%;
+    }
+
+    .tablet-box {
+        flex-basis: 100%;
+        margin: 30px 20px;
+    }
+}
